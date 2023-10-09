@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Rest vs GraphQL</title>
+</head>
+<body>
+
+    <nav class="top-nav">
+      <a href="/index.html" class="logo">Home</a>
+      <ul>
+        <li class="dropdown">
+          <a href="api.html">APIs</a>
+          <ul class="dropdown-menu">
+            <li><a href="rest.html">REST</a></li>
+            <li><a href="graph.html">GraphQL</a></li>
+            <li><a href="compare.html">Compare</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="expo.html">Expo</a>
+          <ul class="dropdown-menu">
+            <li><a href="exposet.html">Setup Tutorial</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="compare">
+        <h2 style="color: #f64995;">Coming back to Samantha - <b>Let's compare</b></h2>
+        
+        <p><b>This time it’s Samantha REST (Samantha R) vs Samantha GraphQL (Samantha G).</b></p>
+        
+        <p>You would ask each of them in a different way to get you a publisher.</p>
+        
+        <p>Samantha R might have different endpoints for getting you a list of all the publishers she knows, another endpoint for a specific publisher and an endpoint for actually submitting a manuscript to a publisher.</p>
+        
+        <p>For example, if you want to take your chance and get a list of all the publishers she knows, you would place your request to the “all publishers” endpoint.</p>
+        
+        <p>Samantha would then process your request and return a response in JSON format containing the list of publishers, or the information about the specific publisher you requested, or the status of your manuscript submission.</p>
+        
+        <p>With Samantha G, things are a bit different. This Samantha has a single endpoint that you can use to ask her for publishers, and to find a publisher for your manuscript, you would send a GraphQL query to the endpoint, specifying the data you need.</p>
+        
+        <p>For example, you might send a query that asks for the names and contact information of all publishers who are interested in publishing mystery novels (genre of your book).</p>
+        
+        <p>Samantha would then parse and validate your query/request, and then fetch the requested data from her database. She would then return a response in JSON format, containing the information you requested (names and contact information) about all the publishers doing mystery novels.</p>
+        
+        <br>
+      
+        <button><a href="graph.html">Back: GraphQL</a></button>
+        <button><a href="expo.html">Next: Expo</a></button>
+      
+      </div>
+</body>
+</html>
