@@ -18,8 +18,10 @@
         <li><a href="firebase.html">Firebase</a></li>
     </ul>
 
-    <h1>Flutter</h1>
 
+    <div class="flutter">
+    <h1>Flutter</h1>
+<br><br>
     <p><strong>Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.</strong></p>
 
     <p>It is most popular to use for mobile app development but you can also use it to build web applications. It uses a programming language called Dart, which is similar to Java and JavaScript meaning you wouldn’t need to learn different languages for each platform like iOS or Android for example.</p>
@@ -27,46 +29,45 @@
     <ul>
         <li>Single codebase meaning that all of the code for the application is stored in a single repository vs multi-codebase development, where different parts of the application are developed using separate codebases.</li>
     </ul>
+<br>
+    <a href="https://kinsta.com/blog/monorepo-vs-multi-repo/" class="link">More about Single codebase vs Multi codebase</a>
+<br>
 
-    <p>More about Single vs Multi:</p>
+    <p><b>Benefits of using Flutter:</b></p>
     <ul>
-        <li><a href="https://kinsta.com/blog/monorepo-vs-multi-repo/" class="link">Monorepo vs Multi-Repo: Pros and Cons of Code Repository Strategies</a></li>
-    </ul>
-
-    <p>Benefits of using Flutter:</p>
-    <ul>
-        <li>Time saving - <strong>Flutter's hot reload feature allows developers to see changes to their code reflected in the app immediately, without having to rebuild and reinstall the app. This can save developers a lot of time and effort.</strong></li>
+        <li>Time saving - Flutter's hot reload feature allows developers to see changes to their code reflected in the app immediately, without having to rebuild and reinstall the app. This can save developers a lot of time and effort.</li>
         <li>Native performance - Flutter apps are compiled to native machine code, which means they perform just as well as native iOS and Android apps.</li>
         <li>Cross-platform development - meaning it can be used to build mobile apps for both iOS and Android using a single codebase. This can save developers time and money, as they only need to write and maintain a single codebase for both platforms.</li>
         <li>Simple - it comes with a wide range of pre-built widgets that developers can use to create beautiful and engaging user interfaces.</li>
     </ul>
 
     <p>Used to build apps like Google pay, BMW, Bytedance, and eBay.</p>
-
-    <p>Learn more about Flutter by watching this video: 
+<br><br>
+    <p><b>Learn more about Flutter by watching this video:</b></p>
+    <br>
+    <div class="flutteryt">        
         <iframe width="560" height="315" src="https://www.youtube.com/embed/lHhRhPV--G0?si=jkfcbgGfsHeVtg57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <h2>How to Set Up Flutter</h2>
+    </div>
+        <br><br>
+        <h4>How to Set Up Flutter</h4>
 
     <p>If you decide to go for the official tutorial, it is good to have your Mac prepared.</p>
-
+<br>
     <p>We are using mac setup, but you can visit <a href="https://docs.flutter.dev/get-started/install" class="link">here</a> if you use a different OS.</p>
-
-    <ul>
-        <li><a href="https://docs.flutter.dev/get-started/install" class="link">Flutter Installation Guide</a></li>
-    </ul>
+<br>
 
     <p>Make sure you have Xcode installed and your computer is meeting the minimum requirements below:</p>
 
     <ul>
         <li><strong>Operating Systems</strong>: macOS, version 10.14 (Mojave) or later.</li>
         <li><strong>Disk Space</strong>: 2.8 GB (does not include disk space for IDE/tools).</li>
-        <li><strong>Tools</strong>: Flutter uses <code>git</code> for installation and upgrade. We recommend installing <a href="https://developer.apple.com/xcode/" class="link">Xcode</a>, which includes <code>git</code>, but you can also <a href="https://git-scm.com/download/mac" class="link">install <code>git</code> separately</a>.</li>
+        <li><strong>Tools</strong>: Flutter uses <code>git</code> for installation and upgrade. We recommend <a href="https://developer.apple.com/xcode/" class="link">installing Xcode</a>, which includes <code>git</code>, but you can also <a href="https://git-scm.com/download/mac" class="link">install <code>git</code> separately</a>.</li>
     </ul>
 
     <p>If installing on Apple Silicon Mac, make sure to have Rosetta translation environment by running <code>sudo softwareupdate --install-rosetta --agree-to-license</code> in terminal:</p>
-
-    <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/8b661316-35f6-4edc-90f2-c1f8e53f4cb2/31deb767-d3d9-4bad-8063-8725d58094fe/Screenshot_2023-10-10_at_12.25.36.png" alt="Rosetta Translation Environment">
-
+<br><br>
+<img src="/imgs/fl1.png">
+<br><br>
     <p>Download the Flutter SDK (Software Development Kit):</p>
 
     <ul>
@@ -74,40 +75,61 @@
     </ul>
 
     <p>Once downloaded the zip file, extract it in the desired location by cd-ing to the location of your choice:</p>
+ <br>
+    <h4>Example</h4>
+    <br>
+    <p><code>cd ~/development <br>
+        unzip ~/Downloads/flutter_macos_3.13.6-stable.zip
+            </code></p>
 
-    <pre><code>cd ~/development
-unzip ~/Downloads/flutter_macos_3.13.6-stable.zip
-    </code></pre>
+    <br>
+    <h4>How we did it</h4>
+    <br>
+    <p><code>cd Desktop/code/Personal/Tools <br>
+
+        unzip ~/Downloads/flutter_macos_arm64_3.13.6-stable.zip</code></p>
+        <br>
+
+    <p>Once you run these two commands, you would get a pop up looking like this:</p>
+    <br><br>
+    <img src="/imgs/fl2.png">
+    <br><br>
+
+    <p>By pressing “ok” you will initialise the extraction. This might take some time so it’s nothing to worry about, and your terminal will look something like this</p>
+    <br><br>
+    <img src="/imgs/fl3.png">
+    <br><br>
 
     <p>Now we need to run <code>export PATH="$PATH:pwd/flutter/bin"</code> to be able to use Flutter commands.</p>
 
     <p>As a final setup step, run <code>flutter doctor</code> to see if there are any dependencies you need to install to complete the setup:</p>
-
-    <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/8b661316-35f6-4edc-90f2-c1f8e53f4cb2/59b8743d-f149-4f03-b2bc-e41af52d59ff/Screenshot_2023-10-10_at_14.21.30.png" alt="Flutter Doctor Output">
-
     <p>You will get a welcome message, and below you will be able to see if you are missing any dependencies.</p>
-
-    <p>If you have missing dependencies, like shown below, visit <a href="https://docs.flutter.dev/get-started/install/macos" class="link">here</a> to install what you need.</p>
-
-    <p>Once you clear that out, you’re ready to start your first Flutter app.</p>
-
+    <br><br>
+    <img src="/imgs/fl4.png">
+    <br><br>
+    <p>If you have missing dependencies, like shown below, <a href="https://docs.flutter.dev/get-started/install/macos" class="link">visit here</a> to install what you need.</p>
+    <br><br>
+    <img src="/imgs/fl5.png">
+    <br><br>
+    <p class="centered-paragraph">Once you clear that out, you’re ready to start your first Flutter app! 🥂</p>
 
     <div class="container">
-        <a class="button" href="firebase.html" style="--color: #5D082D;">
+        <a class="button" href="exposet.html" style="--color: #5D082D;">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-          Back: Firebase
+          Back: Expo setup
         </a>
-        <a class="button" href="/index.html" style="--color: #F64995;">
+        <a class="button" href="firebase.html" style="--color: #F64995;">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-          Home
+          Next: Firebase
         </a>
       </div>
+    </div>
 
 </body>
 </html>
