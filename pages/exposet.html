@@ -8,27 +8,17 @@
 </head>
 <body>
 
-  <nav class="top-nav">
-    <a href="/index.html" class="logo">Home</a>
-    <ul>
-      <li class="dropdown">
-        <a href="api.html">APIs</a>
-        <ul class="dropdown-menu">
-          <li><a href="rest.html">REST</a></li>
-          <li><a href="graph.html">GraphQL</a></li>
-          <li><a href="compare.html">Compare</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="expo.html">Expo</a>
-        <ul class="dropdown-menu">
-          <li><a href="exposet.html">Setup Tutorial</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
-
+  <ul class="horizontal-menu">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="api.html">APIs</a></li>
+    <li><a href="rest.html">Rest</a></li>
+    <li><a href="graph.html">GraphQL</a></li>
+    <li><a href="compare.html">Rest vs GraphQL</a></li>
+    <li><a href="expo.html">Expo</a></li>
+    <li><a href="exposet.html">Setup Expo</a></li>
+    <li><a href="flutter.html">Flutter</a></li>
+    <li><a href="firebase.html">Firebase</a></li>
+</ul>
   <div class="exposet">
     <h1>Let’s learn how to set up your first Expo project!</h1>
         
@@ -45,22 +35,22 @@
             <ul>
                 <li>If prompted, run <code style="font-weight: bold;">npm install -g npm@10.2.0</code> to update</li>
             </ul>
-            <li> <a href="https://docs.expo.dev/">Sign up here to make an account</a> </li>
-            <li> <a href="https://expo.dev/client">Download Expo Go for your smartphone</a></li>
+            <li> <a href="https://docs.expo.dev/" class="link">Sign up here to make an account</a> </li>
+            <li> <a href="https://expo.dev/client" class="link">Download Expo Go for your smartphone</a></li>
             <li>Click to create a project and give it a name</li>
             <br>
-                <IMG SRC="../css/tut1.png" width="400" height="350">
+                <IMG SRC="../imgs/tut1.png" width="400" height="350">
            <br>
             <p>We named ours Pompomo (Just like cute little pomeranians 🐾)</p>
             
             <li>Create a new project by running the below (Note that Pompomo is the name of our project, and this will be different depending on how you name your project)</li>
             <br>
-            <IMG SRC="../css/tut2.png" width="350" height="350">
+            <IMG SRC="../imgs/tut2.png" width="350" height="350">
             <br>
             <br>
             <li>Once you run the code above, you will be asked to confirm installing the Expo app package, and to proceed, just run <code>y</code></li>
             <br>
-            <IMG SRC="../css/tut3.png" width="400" height="350">
+            <IMG SRC="../imgs/tut3.png" width="400" height="350">
               <br>
               <br>
             <li>Once the packages are installed, you can choose what kind of an app you want to create. We chose to go for iOS by running <code>npm run ios</code></li>
@@ -68,21 +58,38 @@
                 <li>You will need to sign up with your Expo account user details to proceed</li>
             </ul>
             <li>Once you run this, it will open the simulator app, showing a preview on iPhone</li>
+            <br>
+            <IMG SRC="../imgs/tut4.png" width="265" height="566">
+                <br>
+                <br>
             <ul>
                 <li>You can also choose a device you want to display by clicking “file” in the menu bar and choosing a new phone by going to “open simulator”</li>
-            </ul>
-            <li>You will get a QR code in the terminal you can then scan with your Camera app to open the project in the app</li>
-            <ul>
-                <li>In your terminal, you can also see the log for your project</li>
-            </ul>
+                <br>
+                <img src="../imgs/tut5.png" width="444" height="282">
+                <br>
             <li>Congrats! You just started your first Expo project 🥳</li>
                   
         </ol>
-        <a href="https://docs.expo.dev/tutorial/introduction/">Full expo tutorial</a>  
+        <a href="https://docs.expo.dev/tutorial/introduction/" class="link">Full expo tutorial</a>  
         <br>
         <br>
-        <button><a href="expo.html">Back: Expo</a></button>
-        <button><a href="conclude.html">Next: Finish</a></button>
+
+        <div class="container">
+            <a class="button" href="expo.html" style="--color: #5D082D;">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Back: Expo
+            </a>
+            <a class="button" href="conclude.html" style="--color: #F64995;">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Finish
+            </a>
+          </div>
 
         </div>
 </body>

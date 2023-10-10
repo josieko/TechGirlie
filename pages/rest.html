@@ -8,25 +8,17 @@
 </head>
 <body>
 
-  <nav class="top-nav">
-    <a href="/index.html" class="logo">Home</a>
-    <ul>
-      <li class="dropdown">
-        <a href="api.html">APIs</a>
-        <ul class="dropdown-menu">
-          <li><a href="rest.html">REST</a></li>
-          <li><a href="graph.html">GraphQL</a></li>
-          <li><a href="compare.html">Compare</a></li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="expo.html">Expo</a>
-        <ul class="dropdown-menu">
-          <li><a href="exposet.html">Setup Tutorial</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+  <ul class="horizontal-menu">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="api.html">APIs</a></li>
+    <li><a href="rest.html">Rest</a></li>
+    <li><a href="graph.html">GraphQL</a></li>
+    <li><a href="compare.html">Rest vs GraphQL</a></li>
+    <li><a href="expo.html">Expo</a></li>
+    <li><a href="exposet.html">Setup Expo</a></li>
+    <li><a href="flutter.html">Flutter</a></li>
+    <li><a href="firebase.html">Firebase</a></li>
+</ul>
     
     <div class="rest">
         <h2>REST</h2>
@@ -42,15 +34,30 @@
         <p>It is good to know that REST APIs are typically stateless, meaning that each request contains all the information that the server needs to process it. That’s also what makes it easy to scale.</p>
         
         <p>It is also simple to implement and can be used to expose a wide variety of data and resources, also having a massive, well-established community of developers and tools.</p>
-        <a href="https://www.geeksforgeeks.org/rest-api-introduction/"><b>You can find out more on REST APIs here</b></a>
+        <a href="https://www.geeksforgeeks.org/rest-api-introduction/" class="link"><b>You can find out more on REST APIs here</b></a>
        
         <br>
-
-        <button><a href="api.html">Back: APIs</a></button>
-        <button><a href="graph.html">Next: GraphQL</a></button>
+        <div class="container">
+          <a class="button" href="api.html" style="--color: #5D082D;">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Back: API
+          </a>
+          <a class="button" href="graph.html" style="--color: #F64995;">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Next: GraphQL
+          </a>
+        </div>
       
       </div>
         
+        
+      
 
 </body>
 </html>
