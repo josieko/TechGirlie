@@ -1,39 +1,41 @@
 /* Style for the horizontal menu container */
+body {
+  background-color: black;
+}
 .menu-container {
-    max-height: 50px; /* Adjust this to your desired maximum height */
-    overflow-x: auto;
+  max-height: 50px;
+  overflow-x: auto;
 }
 
 /* Style for the horizontal menu */
 ul.horizontal-menu {
-    border: solid #F64995;
-    border-width: 5px;
-    list-style-type: none;
-    margin: 2px; /* Add 'px' unit */
-    padding: 5px; /* Add 'px' unit */
-    overflow: hidden;
-    background-color: #000000; /* Change this to your desired background color */
-    white-space: nowrap; /* Prevent line breaks in menu items */
+  border: solid #f64995;
+  border-width: 5px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #000000;
+  white-space: nowrap; /* Prevent line breaks in menu items */
 }
 
 ul.horizontal-menu li {
-    float: left;
-    align-items: center;
+  float: left;
+  align-items: center;
 }
 
 ul.horizontal-menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 ul.horizontal-menu li a:hover {
-    background-color: #F64995; /* Change this to your desired hover background color */
+  background-color: #f64995;
 }
-
 
 .introduction {
   display: flex;
@@ -43,16 +45,16 @@ ul.horizontal-menu li a:hover {
   padding: 10%;
   background-color: black;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
- h1 {
-  font-family: 'Raleway';
+h1 {
+  font-family: "Raleway";
   font-weight: 700;
   font-display: swap;
   text-align: center;
-  color: #F64995;
- }
+  color: #f64995;
+}
 
 .api {
   display: flex;
@@ -64,19 +66,19 @@ ul.horizontal-menu li a:hover {
   padding-top: 5%;
   background-color: white;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
 .api img {
   max-width: 60%;
   border-radius: 0px;
-  border: 15px solid #F64995; /* Specify 'solid' for the border style */
+  border: 15px solid #f64995; /* Specify 'solid' for the border style */
   align-self: center;
 }
 
 .graph b {
-  color: #F64995;
+  color: #f64995;
 }
 
 .rest {
@@ -86,14 +88,13 @@ ul.horizontal-menu li a:hover {
   text-align: left;
   padding: 10%;
   background-color: #000000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   border: 15px solid black;
 }
 
 .link {
-  color: #F64995;
-
+  color: #f64995;
 }
 
 .graphql {
@@ -104,12 +105,11 @@ ul.horizontal-menu li a:hover {
   padding: 10%;
   background-color: black;
   color: white;
-  font-family: 'Raleway', sans-serif
+  font-family: "Raleway", sans-serif;
 }
 
 .graphql link {
-  color: #5D082D;
-  
+  color: #5d082d;
 }
 
 .compare {
@@ -120,7 +120,7 @@ ul.horizontal-menu li a:hover {
   padding: 10%;
   background-color: white;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
@@ -132,7 +132,7 @@ ul.horizontal-menu li a:hover {
   padding: 10%;
   background-color: black;
   color: white;
-  font-family: 'Raleway', sans-serif
+  font-family: "Raleway", sans-serif;
 }
 
 .conclusion {
@@ -141,24 +141,22 @@ ul.horizontal-menu li a:hover {
   align-items: center;
   text-align: center;
   padding: 10%;
-  background-color: #F64995;
-  font-family: 'Raleway', sans-serif;
+  background-color: #f64995;
+  font-family: "Raleway", sans-serif;
   color: white;
   border-radius: 0px;
   border: 15px solid black;
 }
 
 .conclusion img {
-  max-width: 100%; 
+  max-width: 100%;
   border-radius: 0px;
   border: 15px solid black;
 }
 
 code {
-  color: #F64995;
+  color: #f64995;
 }
-
-
 
 .expo {
   display: flex;
@@ -167,12 +165,10 @@ code {
   text-align: left;
   padding-top: 0%;
   background-color: #000000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   border: 15px solid black;
 }
-
-
 
 .exposet {
   display: flex;
@@ -181,24 +177,24 @@ code {
   text-align: left;
   padding: 10%;
   background-color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: rgb(0, 0, 0);
-  border: 15px solid #F64995;
+  border: 15px solid #f64995;
 }
 
 img[src="../css/tut1.png"] {
-  border: 10px solid #F64995;
+  border: 10px solid #f64995;
   align-items: center;
   max-width: 100%;
 }
 
 img[src="../css/tut2.png"] {
-  border: 10px solid #F64995;
+  border: 10px solid #f64995;
   align-items: center;
 }
 
 img[src="../css/tut3.png"] {
-  border: 10px solid #F64995;
+  border: 10px solid #f64995;
   align-items: center;
 }
 
@@ -223,7 +219,7 @@ button {
   padding-top: 5%;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
@@ -231,10 +227,10 @@ button {
   text-align: center;
 }
 
-.flutter img{
+.flutter img {
   max-width: 60%;
   border-radius: 0px;
-  border: 10px solid #F64995; /* Specify 'solid' for the border style */
+  border: 10px solid #f64995; /* Specify 'solid' for the border style */
   align-self: center;
 }
 
@@ -244,7 +240,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #F64995; /* Thick pink border */
+  border: 5px solid #f64995; /* Thick pink border */
   padding: 20px; /* Optional padding to create space around the iframe */
 }
 
@@ -258,7 +254,7 @@ button {
   padding-top: 5%;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
@@ -268,19 +264,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #F64995; /* Thick pink border */
+  border: 5px solid #f64995; /* Thick pink border */
   padding: 20px; /* Optional padding to create space around the iframe */
 }
 
-
 /* trying out new style */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -316,7 +311,7 @@ button {
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -331,8 +326,7 @@ button {
 .button:hover::before {
   transform: scale(1);
   transition-delay: 0.5s;
-  box-shadow: 0 0 10px var(--color),
-    0 0 30px var(--color),
+  box-shadow: 0 0 10px var(--color), 0 0 30px var(--color),
     0 0 60px var(--color);
 }
 
@@ -341,11 +335,8 @@ button {
   background: var(--color);
   pointer-events: none;
   border-radius: 2px;
-  box-shadow: 0 0 10px var(--color),
-    0 0 20px var(--color),
-    0 0 30px var(--color),
-    0 0 50px var(--color),
-    0 0 100px var(--color);
+  box-shadow: 0 0 10px var(--color), 0 0 20px var(--color),
+    0 0 30px var(--color), 0 0 50px var(--color), 0 0 100px var(--color);
   transition: 0.5s ease-in-out;
   transition-delay: 0.25s;
 }
